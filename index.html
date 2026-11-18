@@ -1,99 +1,20 @@
 <!DOCTYPE html>
-<!--
-================================================================================
-index.html — Your Homepage
-================================================================================
-
-This is the main page of your site. Everything below follows a pattern you'll
-see in most web pages: a DOCTYPE, then an html element containing head and body.
-
-The comments throughout this file explain what things are called and roughly
-what they do. You don't need to read every comment before starting—skim them
-when you're curious, or when you're trying to find something specific.
-
-Feel free to experiment. If you break something, you can always look at the
-original or fork the repository again.
-
-================================================================================
--->
-<html lang="en">
-<!--
-The <html> element wraps everything. The lang="en" attribute tells browsers
-and screen readers that the content is in English.
--->
-
+<html lang="en"
 <head>
-    <!--
-    The <head> contains information ABOUT the page—metadata that doesn't appear
-    on the page itself but affects how it displays and how search engines see it.
-    -->
-
     <meta charset="UTF-8">
-    <!--
-    Character encoding. UTF-8 supports virtually all characters from all
-    languages. Always include this first.
-    -->
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--
-    This makes the page work properly on mobile devices. Without it, phones
-    would display your site as a tiny zoomed-out desktop page.
-    -->
-
-    <meta name="description" content="A personal portfolio website">
-    <!--
-    Search engines might display this in search results. Update it to describe
-    your site.
-    -->
-
+    <meta name="description" content="Madison's portfolio website">
     <title>Madison's Portfolio</title>
-    <!--
-    This appears in the browser tab. It's also what shows in search results
-    and bookmarks. Update it to reflect your site.
-    
-    → Exercise 3: Change this to your name or site name
-    -->
-
     <link rel="stylesheet" href="styles.css">
-    <!--
-    This connects your HTML to the CSS file. Without this link, none of your
-    styles would apply.
-    -->
-
     <!-- Exercise 25: Add your favicon link here when you're ready
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     -->
 </head>
-
 <body>
-    <!--
-    Everything visible on the page goes in the <body>. The structure here uses
-    semantic elements: <header>, <main>, <footer> instead of generic <div>s.
-    These communicate meaning to screen readers and search engines.
-    -->
-
     <a href="#main" class="skip-link">Skip to main content</a>
-    <!--
-    The skip link is invisible until someone presses Tab. It lets a keyboard
-    user jump straight to the content instead of tabbing through every
-    navigation link on every page. Look for .skip-link in styles.css.
-    -->
-
     <header>
-        <!--
-        The site header typically contains the logo/site name and main navigation.
-        This appears at the top of every page.
-        
-        → Exercise 20: The CSS makes this "sticky"—scroll down your page and
-          notice how the header stays visible at the top.
-        -->
         <div class="container header-content">
-            <!--
-            The "container" class centers content and limits its width.
-            Look at .container in styles.css to see how it works.
-            -->
-
-            <a href="index.html" class="logo">My Portfolio</a>
+            <a href="index.html" class="logo">Madison's Portfolio</a>
             <!--
             The logo is just a styled link that points back to the homepage.
             Update the text to match your site name.
